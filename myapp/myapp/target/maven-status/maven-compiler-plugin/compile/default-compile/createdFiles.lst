@@ -1,0 +1,6 @@
+com\myapp\controller\Student.class
+com\myapp\exception\MyAppExceptionHandler.class
+com\myapp\controller\StudentService.class
+com\myapp\MyappApplication.class
+com\myapp\controller\StudentController.class
+com\myapp\exception\ExceptionDescriiptor.class
