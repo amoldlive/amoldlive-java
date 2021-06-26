@@ -6,8 +6,8 @@ import java.util.TreeSet;
 public class TreeCollection {
 	public static void main(String[] args) {
 		
-		//testTreeSet();
-			testTreeMap();
+		testTreeSet();
+			//testTreeMap();
 	}
 	
 	public static void testTreeSet() {
