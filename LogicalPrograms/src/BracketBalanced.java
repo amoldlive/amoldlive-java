@@ -48,8 +48,6 @@ public class BracketBalanced {
 				if (popBracket == '{' || popBracket == '[')
 					return false;
 				break;
-			default:
-				break;
 
 			}
 

@@ -2,6 +2,7 @@ package com.hashmap.and.heap;
 
 import java.util.HashMap;
 
+/*longest consecutive sequence*/
 public class GetLongestConsecutiveSequence {
 	public static void main(String[] args) {
 
