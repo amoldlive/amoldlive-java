@@ -23,7 +23,7 @@ public class FindRouteFromTickets {
 			String destination=ticketMap.get(source);
 			routeMap.put(destination, false);
 			
-			if(routeMap.containsKey(source)==false)
+			if(!routeMap.containsKey(source))
 			routeMap.put(source, true);
 		}
 		
