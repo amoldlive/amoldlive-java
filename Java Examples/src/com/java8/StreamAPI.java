@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/* A stream is a sequence of objects that supports various methods which can be pipelined to produce the desired result*/
 public class StreamAPI {
 	public static void main(String[] args) {
 		ArrayList<Integer> list=new ArrayList<>();

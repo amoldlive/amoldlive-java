@@ -13,8 +13,18 @@ public class RegexEx {
 		boolean result=Pattern.matches(regex, input);
 		System.out.println("Result  : "+result);
 				
-		System.out.println(10.0f/0);
+		System.out.println(10.0f/0); //OP - Infinity 
 		
 		try {}finally {}
+		
+		/*Validating Mobile NUmber*/
+		mobileNumberRegex();
+	}
+	public static void mobileNumberRegex() {
+		
+		String number="+917276466779";
+		String regex="[+][9][1][0-9]{10}";
+		
+		System.out.println(Pattern.matches(regex, number));
 	}
 }

@@ -12,8 +12,9 @@ public class CollectionsExample {
 
 	public static void main(String[] args) {
 		
+		/*Now string buffer also implements comparable*/
 		TreeSet<StringBuffer> sortedSet=new TreeSet<>();
-		sortedSet.add(new StringBuffer("E"));
+		sortedSet.add(new StringBuffer("E")); 
 		sortedSet.add(new StringBuffer("D"));
 		
 		sortedSet.add(new StringBuffer("F"));
