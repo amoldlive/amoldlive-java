@@ -1,4 +1,4 @@
-package com.general;
+package com.arrays;
 
 public class SortingSearching {
 	public static void main(String[] args) {
