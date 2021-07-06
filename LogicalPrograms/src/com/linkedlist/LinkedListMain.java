@@ -1,4 +1,4 @@
-package com.ds;
+package com.linkedlist;
 import java.util.Stack;
 
 class Node {
