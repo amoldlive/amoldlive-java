@@ -16,7 +16,9 @@ public class CountValidTimeIn24HoursClock {
 		System.out.println(solution2(1, 8, 3, 2));
 		System.out.println(solution2(6, 2, 4, 7));
 		System.out.println(solution2(2, 3, 3, 2));
-
+		
+	
+		
 	}
 
 	public static int solution2(int A, int B, int C, int D) {
