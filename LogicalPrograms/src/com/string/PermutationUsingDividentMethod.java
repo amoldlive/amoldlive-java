@@ -11,7 +11,6 @@ public class PermutationUsingDividentMethod {
 		// find out factorisal
 		int length = str.length();
 		int f = factorial(length);
-		System.out.println(f);
 
 		for (int i = 0; i < f; i++) {
 			int temp = i;
