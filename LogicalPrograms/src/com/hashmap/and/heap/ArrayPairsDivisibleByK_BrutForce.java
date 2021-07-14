@@ -1,6 +1,6 @@
 package com.hashmap.and.heap;
 
-public class PairIsDivisibleByK {
+public class ArrayPairsDivisibleByK_BrutForce {
 	public static void main(String[] args) {
 		int[] arr= {56,22,34,12,78,11,98,69};
 		int k=10;

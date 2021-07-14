@@ -1,4 +1,5 @@
 package com.linkedlist;
+
 import java.util.Stack;
 
 class Node {
@@ -26,11 +27,11 @@ class SinglyLinkedList {
 			while (temp.next != null) {
 				temp = temp.next;
 			}
-			
+
 			temp.next = node;
 		}
 	}
-	
+
 	public void print() {
 		Node temp = head;
 		while (temp.next != null) {
@@ -40,22 +41,21 @@ class SinglyLinkedList {
 		System.out.print(temp.data + " -> NULL ");
 		System.out.println();
 	}
-	
-	    public void reverse()
-	    {
-	    	Node current = head;
-		    Node prev = null;
-	        Node fwd = null;
-	       
-	        while (current != null) {
-	            fwd = current.next;
-	            current.next = prev;
-	            prev = current;
-	            current = fwd;
-	        }
-	        head = prev;
-	        //return node;
-	    }
+
+	public void reverse() {
+		Node current = head;
+		Node prev = null;
+		Node fwd = null;
+
+		while (current != null) {
+			fwd = current.next;
+			current.next = prev;
+			prev = current;
+			current = fwd;
+		}
+		head = prev;
+		// return node;
+	}
 }
 
 class CustomLinkedList {
@@ -271,17 +271,18 @@ class CustomLinkedList {
 public class LinkedListMain {
 
 	public static void main(String[] args) {
-		
-		SinglyLinkedList list=new SinglyLinkedList();
+
+		SinglyLinkedList list = new SinglyLinkedList();
 		list.add(10);
 		list.add(20);
 		list.add(30);
 		list.add(40);
-	
+
 		list.print();
 		list.reverse();
 		list.print();
 	}
+
 	private static void linkedListTEst() {
 		CustomLinkedList list = new CustomLinkedList();
 		list.add(10);
