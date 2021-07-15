@@ -1,3 +1,4 @@
+package com.arrays.twod;
 
 public class PrintSprialMatrix {
 	public static void main(String[] args) {
