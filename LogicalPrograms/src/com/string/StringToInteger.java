@@ -1,3 +1,4 @@
+package com.string;
 
 public class StringToInteger {
 	public static void main(String[] args) {
