@@ -11,8 +11,6 @@ public class MergeArrays {
 
 	public static int[] mergeArray(int[] arr1, int[] arr2) {
 
-//			int lengthOfArr1=arr1.length;
-//			int lengthOfArr2=arr2.length;
 		int newlength = arr1.length + arr2.length;
 
 		int[] newArr = new int[newlength];

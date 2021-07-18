@@ -22,7 +22,7 @@ public class FirstNonRepeatatingChar {
 		int[] arr= {1,2,3,2,3,2,3,4,5,3,1};
 		
 		String str="swirpssw";
-		String str2="Hickory dickory dock. The mouse went up the clock " + 
+		String str2 = "Hickory dickory dock. The mouse went up the clock " + 
 				"The clock struck one. The mouse went down " + 
 				"Hickory dickory dock";
 		System.out.println(countCHaracterFromString(str));

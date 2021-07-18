@@ -3,6 +3,7 @@ package com.java8;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -53,6 +54,27 @@ public class TestFilter {
 		 
 		 */
 		
+		filterTest();
+	}
+	private static void filterTest() {
+		List<Integer> intList=new ArrayList<>();
+		intList.add(1);
+		intList.add(2);
+		intList.add(3);
+		intList.add(4);
+		intList.add(5);
+		intList.add(6);
+		
+		intList.stream().filter(new Predicate<Integer>() {
+
+			@Override
+			public boolean test(Integer t) {
+				// TODO Auto-generated method stub
+				return t%2==0;
+			}
+		
+		}).forEach(i->System.out.print(i+" "));;
+	
 	}
 	public static boolean isPrime(int num) {
 		
