@@ -11,7 +11,7 @@ public class HappyNumber {
 	public static void main(String[] args) {
 	
 			//System.out.println("Calculation : "+ calculateSquareOfEachDigit(13));
-		System.out.println("isHappy Number : "+isHappyNumber(num2));
+		System.out.println("isHappy Number : "+isHappyNumber(num1));
 		
 		
 	}

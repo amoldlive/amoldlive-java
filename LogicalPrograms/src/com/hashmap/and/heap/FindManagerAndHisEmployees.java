@@ -14,6 +14,33 @@ public class FindManagerAndHisEmployees {
 
 		findManagerAndHisEMployee(str);
 
+		System.out.println("********");
+
+		findManagerAndHisEMployeeOptimized(str);
+
+	}
+
+	public static void findManagerAndHisEMployeeOptimized(String[] str) {
+		HashMap<Character, HashSet<Character>> map = new HashMap<Character, HashSet<Character>>();
+		HashSet<Character> set = null;
+
+		for (String emp : str) {
+			Character employee = emp.charAt(0);
+			Character manager = emp.charAt(1);
+
+			if (!employee.equals(manager)) {
+				if (map.containsKey(manager)) {
+					set = map.get(manager);
+					set.add(employee);
+					map.put(manager, set);
+				} else {
+					set = new HashSet<>();
+					set.add(employee);
+					map.put(manager, set);
+				}
+			}
+		}
+		System.out.println(map);
 	}
 
 	public static void findManagerAndHisEMployee(String[] str) {
@@ -32,10 +59,10 @@ public class FindManagerAndHisEmployees {
 			} else {
 
 				if (outMap.containsKey(manager)) {
-					HashSet<String> empSet=outMap.get(manager);
+					HashSet<String> empSet = outMap.get(manager);
 					empSet.add(emp);
 					outMap.put(manager, empSet);
-					
+
 				} else {
 
 					HashSet<String> empSet = new HashSet<>();
