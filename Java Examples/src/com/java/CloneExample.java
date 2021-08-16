@@ -1,7 +1,5 @@
 package com.java;
 
-import java.util.ArrayList;
- 
 class Test {
     int x, y;
 }
