@@ -16,7 +16,6 @@ public class Pallindrom {
 	}
 	
 	static boolean isPallindrom(String str,int l_index,int r_index) {
-		
 		if(l_index>=r_index)
 			return true;
 		

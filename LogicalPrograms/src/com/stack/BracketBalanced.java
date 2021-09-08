@@ -36,17 +36,17 @@ public class BracketBalanced {
 			switch (bracket) {
 			case '}':
 				popBracket = stack.pop();
-				if (popBracket == '[' || popBracket == '(')
+				if (popBracket != '{')
 					return false;
 				break;
 			case ']':
 				popBracket = stack.pop();
-				if (popBracket == '{' || popBracket == '(')
+				if (popBracket != '[')
 					return false;
 				break;
 			case ')':
 				popBracket = stack.pop();
-				if (popBracket == '{' || popBracket == '[')
+				if (popBracket != '(')
 					return false;
 				break;
 

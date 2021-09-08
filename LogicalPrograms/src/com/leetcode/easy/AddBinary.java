@@ -15,15 +15,15 @@ public class AddBinary {
 		StringBuilder sb = new StringBuilder();
 
 		while (i >= 0 || j >= 0) {
-			sum = carry;
+			//sum = carry;
 
 			if (i >= 0)
-				sum += a.charAt(i) - '0'; // to get number than ascii
+				sum += a.charAt(i) - '0'; // to get actual number (otherwise will get ascii value)
 
 			if (j >= 0)
 				sum += (int) b.charAt(j) - '0';
 
-			sb.append(sum % 2);
+			sb.append((sum+carry) % 2);
 			carry = sum / 2;
 
 			i--;
