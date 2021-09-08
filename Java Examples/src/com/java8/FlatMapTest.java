@@ -23,6 +23,7 @@ public class FlatMapTest {
 		a3.add(6);
 		a3.add(2);
 
+		//adding all 3 list into single list
 		al.add(a1);
 		al.add(a2);
 		al.add(a3);

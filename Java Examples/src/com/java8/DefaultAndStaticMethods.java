@@ -38,5 +38,8 @@ public class DefaultAndStaticMethods {
 		Integrface1 i3=()-> System.out.println("print method ");
 		i3.print();
 
+		//for default method you need to initialize interface reference
+		i3.printData();
+		
 	}
 }
