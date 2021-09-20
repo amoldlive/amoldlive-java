@@ -15,6 +15,7 @@ public class MergeSort {
 		ArrayUtility.print(sortedArr);
 	}
 
+	/* The time complexity of Merge Sort is: O(n log n) */
 	private static int[] mergeSort(int[] arr, int lo, int hi) {
 
 		if (lo == hi) {

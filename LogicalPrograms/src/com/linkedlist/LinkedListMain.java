@@ -34,11 +34,11 @@ class SinglyLinkedList {
 
 	public void print() {
 		Node temp = head;
-		while (temp.next != null) {
+		while (temp != null) {
 			System.out.print(temp.data + " -> ");
 			temp = temp.next;
 		}
-		System.out.print(temp.data + " -> NULL ");
+		System.out.print(" NULL ");
 		System.out.println();
 	}
 

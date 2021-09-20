@@ -4,7 +4,7 @@ import com.arrays.ArrayUtility;
 
 public class BubbleSort {
 	public static void main(String[] args) {
-		int arr[] = { 2, 6, 4, 7, 9, 22, 12 };
+		int arr[] = { 8, 7,6, 5, 4, 3, 2 };
 
 		/* Printing non sorted element */
 		ArrayUtility.print(arr);

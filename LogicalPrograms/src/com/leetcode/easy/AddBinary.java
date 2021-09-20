@@ -21,7 +21,7 @@ public class AddBinary {
 				sum += a.charAt(i) - '0'; // to get actual number (otherwise will get ascii value)
 
 			if (j >= 0)
-				sum += (int) b.charAt(j) - '0';
+				sum += b.charAt(j) - '0';
 
 			sb.append((sum+carry) % 2);
 			carry = sum / 2;
