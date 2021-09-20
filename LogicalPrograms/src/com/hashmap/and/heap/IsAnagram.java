@@ -19,12 +19,12 @@ public class IsAnagram {
 	        if(s1.length()!=s2.length())
 	            return false;
 	        
-	        for(char a:s1.toCharArray()) 
-	            aa[a-'a']++;
+	        for(char ch:s1.toCharArray()) 
+	            aa[ch-'a']++;
 	        
 	        
-	        for(char a:s2.toCharArray())
-				   aa[a-'a']--;
+	        for(char ch:s2.toCharArray())
+				   aa[ch-'a']--;
 	        
 	        for(int i=0;i<26;i++)
 	            if(aa[i]!=0)
