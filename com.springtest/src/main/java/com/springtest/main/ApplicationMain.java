@@ -17,6 +17,6 @@ public class ApplicationMain {
 			outSourceService.doProgress();
 			Thread.sleep(1000);
 		}
-		System.out.println("Application process End ***** ");
+		System.out.println("Application process End *****  ");
 	}
 }
